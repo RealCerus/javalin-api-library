@@ -60,4 +60,12 @@ public class HttpServer {
         app.addHandler(type, path, endpoint::execute, permittedRoles);
     }
 
+    /**
+     * Stops the Javalin instance
+     */
+    public void shutdown() {
+        rateLimiter.shutdown();
+        app.stop();
+    }
+    
 }
