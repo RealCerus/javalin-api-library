@@ -6,7 +6,7 @@
 
     <groupId>dev.lukaesebrot</groupId>
     <artifactId>javalin-api-library</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.2-SNAPSHOT</version>
 
     <properties>
         <java.version>11</java.version>
@@ -23,7 +23,7 @@
         <dependency>
             <groupId>io.javalin</groupId>
             <artifactId>javalin</artifactId>
-            <version>3.7.0</version>
+            <version>3.9.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
